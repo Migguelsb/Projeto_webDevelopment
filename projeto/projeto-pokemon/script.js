@@ -84,7 +84,7 @@ function mostrarCards(pokemons) {
     const peso = document.createElement("p");
     peso.textContent = "Peso: " + p.weight / 10 + " kg";
 
-    // coloca tudo dentro do card
+   
     card.appendChild(coracao); //--------------------------------------------------------------------------
     card.appendChild(nome);
     card.appendChild(imagem);
